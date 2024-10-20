@@ -36,7 +36,10 @@ class StartScreenController(QObject, BaseFactory):
         controllerLogger.debug(f'{self.__class__.__qualname__} initialized')
         return None
 
-    
+    @Slot(result=bool)
+    def getDebugState(self) -> bool:
+        return self.DEBUG
+
     @Slot()
     def fileLoadButtonPressed(self):
         controllerLogger.debug(f'file load button pressed')

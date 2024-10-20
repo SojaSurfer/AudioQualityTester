@@ -46,8 +46,19 @@ Rectangle {
 
         return result;  
     }
+    function handleDebugMode(debug) {
+        if (debug) {
+            console.log("Debug mode is ON");
+            debug_checkBox.checked = true;
+            fileLoad_textField.text = "/Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/test/temp/audio/07 Huck And Jim.mp3"
+        } else {
+            console.log("Debug mode is OFF");
+            debug_checkBox.checked = false;
+        }
+    }
 
     Component.onCompleted: {
+        handleDebugMode(startScreenController.getDebugState())
         selectedItemsString = getSelectedItems();
         getCompressionLevels()
     }
@@ -122,7 +133,7 @@ Rectangle {
                     id: fileLoad_textField
                     width: Constants.startScreen.fileLoadTextFieldWidth
                     placeholderText: qsTr("path/to/audio.mp3")
-                    text: "/Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/test/temp/audio/07 Huck And Jim.mp3"
+                    text: ""
                     anchors.verticalCenter: parent.verticalCenter 
                 }
 

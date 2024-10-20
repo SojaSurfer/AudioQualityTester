@@ -20,7 +20,8 @@ class ResultScreenController(QObject, BaseFactory):
         self.tempDir = tempDir
 
         self.resultDict = kwargs.get('result', {})
-        
+        self.DEBUG = kwargs.get('DEBUG', False)
+
         self.resultHandler = ResultHandler()
 
         self.resultChanged.emit(self.resultDict)

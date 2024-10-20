@@ -20,8 +20,10 @@ class ListeningScreenController(QObject, BaseFactory):
     errorMsg = Signal(str, name='errorMsg')
 
 
-    def __init__(self, tempDir: dict):
+    def __init__(self, tempDir: dict, DEBUG: bool):
         super().__init__()
+
+        self.DEBUG = DEBUG
         self._comboBoxElems = []
         self._formattedResult = []
         self.tempDir = tempDir

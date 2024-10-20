@@ -17,21 +17,18 @@ from .model.logger import mainLogger, installCustomMessageHandlerQT
 
 __version__ = '0.1'
 __license__ = 'GNU-GPL-3.0-only'
-__all__ = ['main', 'DEBUG']
+__all__ = ['main']
 
-
-global DEBUG
-DEBUG = False
 
 
 
 @tempDirWrapper
-def main(tempDir:dict) -> None:
+def main(tempDir:dict, DEBUG: bool = False) -> None:
     mainLogger.info('Starting main()')
 
     verifyExternalDependencies()
     assert tempDir['images'].exists(), f'not a file: {tempDir["images"]}'
-    
+
     sourceDir = Path(__file__).absolute().expanduser().parent
     appPath = sourceDir / 'view' / 'ProjectContent' / 'App.qml'
     importPaths = [".", 'view/Project']
@@ -50,8 +47,8 @@ def main(tempDir:dict) -> None:
     
 
     ssController = StartScreenController(tempDir, DEBUG)
-    lsController = ListeningScreenController(tempDir)
-    rsController = ResultScreenController(tempDir)
+    lsController = ListeningScreenController(tempDir, DEBUG)
+    rsController = ResultScreenController(tempDir, DEBUG=DEBUG)
 
 
     engine.rootContext().setContextProperty("startScreenController", ssController)
