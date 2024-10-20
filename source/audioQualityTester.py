@@ -11,6 +11,7 @@ from .controller.startScreenController import StartScreenController
 from .controller.listeningScreenController import ListeningScreenController
 from .controller.resultScreenController import ResultScreenController
 from .model.backend import tempDirWrapper
+from .model.errorHandler import verifyExternalDependencies
 from .model.logger import mainLogger, installCustomMessageHandlerQT
 
 
@@ -28,7 +29,9 @@ DEBUG = False
 def main(tempDir:dict) -> None:
     mainLogger.info('Starting main()')
 
+    verifyExternalDependencies()
     assert tempDir['images'].exists(), f'not a file: {tempDir["images"]}'
+    
     sourceDir = Path(__file__).absolute().expanduser().parent
     appPath = sourceDir / 'view' / 'ProjectContent' / 'App.qml'
     importPaths = [".", 'view/Project']
