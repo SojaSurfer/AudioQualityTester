@@ -1,0 +1,18 @@
+# ignore OS files
+.DS_Store
+
+# ignore pycaches
+__pycache__/
+source/__pycache__/
+source/model/__pycache__/
+source/view/__pycache__/
+source/controller/__pycache__/
+
+# ignore old version
+old_version/
+
+# ignore log file
+source/resources/application.log
+
+# ignore test for now
+test/

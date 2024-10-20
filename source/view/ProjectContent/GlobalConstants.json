@@ -1,0 +1,45 @@
+{
+    "GlobalConstants": {
+        "headerVertCenterOffset": -453,
+        "headerHorCenterOffset": 0,
+        "fontsize": {
+            "header": 32,
+            "subheader": 20,
+            "subsubheader": 16,
+            "body": 13
+        },
+
+        "buttonSize": [170, 40]
+    },
+    "SSConstants": {
+        "checkBoxStartX": 296,
+        "explanationTextBoxSize": [700, 80]
+    },
+    "LSConstants": {
+        "playButtonSize": [120, 40]
+    },
+    "RSConstants": {
+        "colNameFontSize": 14,
+        "textBoxWidth": 150,
+        "imageBoxWidth": 420,
+
+        "fontsizeBody": 12,
+
+        "rowColor": "transparent",
+        "rowBorderColor": "black",
+        "rowBorderWidth": 1,
+        "rowHeight": 300,
+        "rowWidth": 1000,
+        "rowInnerMargin": 5,
+        "rowStartX": 100,
+
+        "headerRowHeight": 30,
+
+        "buttonsStartY": 900,
+        "buttonWidth": 120,
+        "buttonHeight": 60,
+        "fontsizeButton": 18,
+
+        "test": "A test string"
+    }
+}
