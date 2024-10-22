@@ -383,13 +383,10 @@ class StartSettingInspector(BaseFactory):
     def adjustLogLevel(self) -> None:
         """The method sets the root logger level (std out) to INFO for debug mode and WARNING for non-debug."""
         
-        print("Level before:", logging.getLogger().level)
         if self.statusDict.get('debug', False):
             logging.getLogger().setLevel(logging.INFO)
-            print(logging.getLogger().level)
         else:
             logging.getLogger().setLevel(logging.WARNING)
-            print(logging.getLogger().level)
         return None
 
 

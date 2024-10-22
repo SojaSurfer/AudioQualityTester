@@ -1,0 +1,8 @@
+include audioQualityTester/resources/*
+include audioQualityTester/view/Generated/*
+include audioQualityTester/view/Project/*
+include audioQualityTester/view/Project/desinger/*
+include audioQualityTester/view/ProjectContent/*
+include audioQualityTester/view/ProjectContent/fonts/*
+include audioQualityTester/view/Python/*
+include audioQualityTester/view/Python/autogen/*

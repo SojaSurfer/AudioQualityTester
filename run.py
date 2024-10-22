@@ -1,6 +1,8 @@
-from source.audioQualityTester import *
+from audioQualityTester.audioQualityTester import *
 
 
 
 if __name__ == '__main__':
-    main(DEBUG=True)
+    main(DEBUG=False)
+
+

@@ -1,0 +1,19 @@
+[
+    {"identifier": "MP3_cbr320", "text": "MP3 [320 kbps]", "selected": false},
+    {"identifier": "MP3_cbr256", "text": "MP3 [256 kbps]", "selected": false},
+    {"identifier": "MP3_cbr224", "text": "MP3 [224 kbps]", "selected": false},
+    {"identifier": "MP3_cbr192", "text": "MP3 [192 kbps]", "selected": false},
+    {"identifier": "MP3_cbr160", "text": "MP3 [160 kbps]", "selected": false},
+    {"identifier": "MP3_cbr128", "text": "MP3 [128 kbps]", "selected": false},
+    {"identifier": "MP3_cbr96", "text": "MP3 [96 kbps]", "selected": false},
+    {"identifier": "MP3_vbr0", "text": "MP3 [VBR 0] (highest quality)", "selected": false},
+    {"identifier": "MP3_vbr1", "text": "MP3 [VBR 1]", "selected": false},
+    {"identifier": "MP3_vbr2", "text": "MP3 [VBR 2]", "selected": false},
+    {"identifier": "MP3_vbr3", "text": "MP3 [VBR 3]", "selected": false},
+    {"identifier": "MP3_vbr4", "text": "MP3 [VBR 4]", "selected": false},
+    {"identifier": "MP3_vbr5", "text": "MP3 [VBR 5]", "selected": false},
+    {"identifier": "MP3_vbr6", "text": "MP3 [VBR 6]", "selected": false},
+    {"identifier": "MP3_vbr7", "text": "MP3 [VBR 7]", "selected": false},
+    {"identifier": "MP3_vbr8", "text": "MP3 [VBR 8]", "selected": false},
+    {"identifier": "MP3_vbr9", "text": "MP3 [VBR 9] (lowest quality)", "selected": false}
+]

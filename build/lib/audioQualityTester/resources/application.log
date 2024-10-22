@@ -1,0 +1,82 @@
+2024-10-22 14:53:07,787 - Model - DEBUG - Created temporary directories in /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmpm_6yc0rl
+2024-10-22 14:53:07,787 - Main - INFO - Starting main()
+2024-10-22 14:53:07,787 - Model - INFO - Found ffmpeg backend installed.
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: /Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/audioQualityTester/view/Project
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: /Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/audioQualityTester
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: qrc:/qt-project.org/imports
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: qrc:/qt/qml
+2024-10-22 14:53:07,878 - Main - INFO - QML Import Path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PySide6/Qt/qml
+2024-10-22 14:53:07,878 - Controller - DEBUG - StartScreenController initialized
+2024-10-22 14:53:08,073 - Model - DEBUG - AudioPlayer initialized
+2024-10-22 14:53:08,073 - Controller - DEBUG - ListeningScreenController initialized
+2024-10-22 14:53:08,074 - Controller - DEBUG - ResultScreenController initialized
+2024-10-22 14:53:08,074 - Main - DEBUG - Connected the controller to the UI engine
+2024-10-22 14:53:08,203 - View - DEBUG - Debug mode is ON
+2024-10-22 14:53:08,203 - Controller - INFO - Loaded orig. audio file format in default options: MP3_cbr320
+2024-10-22 14:53:08,204 - View - DEBUG - Compression Options: [{"identifier":"MP3_cbr320","selected":true,"text":"MP3 [320 kbps]"},{"identifier":"MP3_cbr256","selected":true,"text":"MP3 [256 kbps]"},{"identifier":"MP3_cbr224","selected":true,"text":"MP3 [224 kbps]"},{"identifier":"MP3_cbr192","selected":true,"text":"MP3 [192 kbps]"},{"identifier":"MP3_cbr160","selected":false,"text":"MP3 [160 kbps]"},{"identifier":"MP3_cbr128","selected":false,"text":"MP3 [128 kbps]"},{"identifier":"MP3_cbr96","selected":false,"text":"MP3 [96 kbps]"},{"identifier":"MP3_vbr0","selected":false,"text":"MP3 [VBR 0] (highest quality)"},{"identifier":"MP3_vbr1","selected":false,"text":"MP3 [VBR 1]"},{"identifier":"MP3_vbr2","selected":false,"text":"MP3 [VBR 2]"},{"identifier":"MP3_vbr3","selected":false,"text":"MP3 [VBR 3]"},{"identifier":"MP3_vbr4","selected":false,"text":"MP3 [VBR 4]"},{"identifier":"MP3_vbr5","selected":false,"text":"MP3 [VBR 5]"},{"identifier":"MP3_vbr6","selected":false,"text":"MP3 [VBR 6]"},{"identifier":"MP3_vbr7","selected":false,"text":"MP3 [VBR 7]"},{"identifier":"MP3_vbr8","selected":false,"text":"MP3 [VBR 8]"},{"identifier":"MP3_vbr9","selected":false,"text":"MP3 [VBR 9] (lowest quality)"}]
+2024-10-22 14:53:08,223 - Main - DEBUG - Loaded App.qml
+2024-10-22 14:53:13,638 - Main - INFO - UI terminated with exitcode 0
+2024-10-22 14:53:18,438 - Model - DEBUG - Created temporary directories in /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85
+2024-10-22 14:53:18,438 - Main - INFO - Starting main()
+2024-10-22 14:53:18,438 - Model - INFO - Found ffmpeg backend installed.
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: /Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/audioQualityTester/view/Project
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: /Users/julian/Documents/5 - Dev/51 Programming Languages/511 Python/511.1 Unfinished Projects/AudioQualityTester/audioQualityTester
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: /Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: qrc:/qt-project.org/imports
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: qrc:/qt/qml
+2024-10-22 14:53:18,533 - Main - INFO - QML Import Path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/PySide6/Qt/qml
+2024-10-22 14:53:18,533 - Controller - DEBUG - StartScreenController initialized
+2024-10-22 14:53:18,724 - Model - DEBUG - AudioPlayer initialized
+2024-10-22 14:53:18,724 - Controller - DEBUG - ListeningScreenController initialized
+2024-10-22 14:53:18,724 - Controller - DEBUG - ResultScreenController initialized
+2024-10-22 14:53:18,724 - Main - DEBUG - Connected the controller to the UI engine
+2024-10-22 14:53:18,845 - View - DEBUG - Debug mode is OFF
+2024-10-22 14:53:18,846 - Controller - INFO - Loaded orig. audio file format in default options: MP3_cbr320
+2024-10-22 14:53:18,846 - View - DEBUG - Compression Options: [{"identifier":"MP3_cbr320","selected":false,"text":"MP3 [320 kbps]"},{"identifier":"MP3_cbr256","selected":false,"text":"MP3 [256 kbps]"},{"identifier":"MP3_cbr224","selected":false,"text":"MP3 [224 kbps]"},{"identifier":"MP3_cbr192","selected":false,"text":"MP3 [192 kbps]"},{"identifier":"MP3_cbr160","selected":false,"text":"MP3 [160 kbps]"},{"identifier":"MP3_cbr128","selected":false,"text":"MP3 [128 kbps]"},{"identifier":"MP3_cbr96","selected":false,"text":"MP3 [96 kbps]"},{"identifier":"MP3_vbr0","selected":false,"text":"MP3 [VBR 0] (highest quality)"},{"identifier":"MP3_vbr1","selected":false,"text":"MP3 [VBR 1]"},{"identifier":"MP3_vbr2","selected":false,"text":"MP3 [VBR 2]"},{"identifier":"MP3_vbr3","selected":false,"text":"MP3 [VBR 3]"},{"identifier":"MP3_vbr4","selected":false,"text":"MP3 [VBR 4]"},{"identifier":"MP3_vbr5","selected":false,"text":"MP3 [VBR 5]"},{"identifier":"MP3_vbr6","selected":false,"text":"MP3 [VBR 6]"},{"identifier":"MP3_vbr7","selected":false,"text":"MP3 [VBR 7]"},{"identifier":"MP3_vbr8","selected":false,"text":"MP3 [VBR 8]"},{"identifier":"MP3_vbr9","selected":false,"text":"MP3 [VBR 9] (lowest quality)"}]
+2024-10-22 14:53:18,866 - Main - DEBUG - Loaded App.qml
+2024-10-22 14:53:23,268 - Controller - INFO - Start button was pressed
+2024-10-22 14:53:23,268 - Model - DEBUG - StartSettingInspector initialized
+2024-10-22 14:53:23,268 - Model - WARNING - Start Screen User input is defective: , Error: Provide a path to a audio file.
+2024-10-22 14:53:24,658 - Controller - DEBUG - file load button pressed
+2024-10-22 14:53:28,506 - Controller - DEBUG - fileLoadButton file changed: /Users/julian/Downloads/02 Raven.mp3
+2024-10-22 14:53:28,507 - Model - DEBUG - StartSettingInspector initialized
+2024-10-22 14:53:28,525 - Model - DEBUG - Loaded metadata for /Users/julian/Downloads/02 Raven.mp3
+2024-10-22 14:53:28,525 - Controller - INFO - Loaded orig. audio file format in default options: MP3_cbr320
+2024-10-22 14:53:28,525 - View - DEBUG - Compression Options: [{"identifier":"MP3_cbr320","selected":false,"text":"MP3 [320 kbps]"},{"identifier":"MP3_cbr256","selected":false,"text":"MP3 [256 kbps]"},{"identifier":"MP3_cbr224","selected":false,"text":"MP3 [224 kbps]"},{"identifier":"MP3_cbr192","selected":false,"text":"MP3 [192 kbps]"},{"identifier":"MP3_cbr160","selected":false,"text":"MP3 [160 kbps]"},{"identifier":"MP3_cbr128","selected":false,"text":"MP3 [128 kbps]"},{"identifier":"MP3_cbr96","selected":false,"text":"MP3 [96 kbps]"},{"identifier":"MP3_vbr0","selected":false,"text":"MP3 [VBR 0] (highest quality)"},{"identifier":"MP3_vbr1","selected":false,"text":"MP3 [VBR 1]"},{"identifier":"MP3_vbr2","selected":false,"text":"MP3 [VBR 2]"},{"identifier":"MP3_vbr3","selected":false,"text":"MP3 [VBR 3]"},{"identifier":"MP3_vbr4","selected":false,"text":"MP3 [VBR 4]"},{"identifier":"MP3_vbr5","selected":false,"text":"MP3 [VBR 5]"},{"identifier":"MP3_vbr6","selected":false,"text":"MP3 [VBR 6]"},{"identifier":"MP3_vbr7","selected":false,"text":"MP3 [VBR 7]"},{"identifier":"MP3_vbr8","selected":false,"text":"MP3 [VBR 8]"},{"identifier":"MP3_vbr9","selected":false,"text":"MP3 [VBR 9] (lowest quality)"}]
+2024-10-22 14:53:32,256 - Controller - INFO - Start button was pressed
+2024-10-22 14:53:32,256 - Model - DEBUG - StartSettingInspector initialized
+2024-10-22 14:53:32,259 - Model - DEBUG - Loaded metadata for None
+2024-10-22 14:53:32,259 - Model - INFO - Start Screen User input is valid
+2024-10-22 14:53:32,260 - Model - DEBUG - AudioProcessor initialized
+2024-10-22 14:53:36,515 - Model - INFO - Saved compressed file to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR256k.mp3 with settings {'format': 'mp3', 'bitrate': '256k'}
+2024-10-22 14:53:39,862 - Model - INFO - Saved compressed file to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR224k.mp3 with settings {'format': 'mp3', 'bitrate': '224k'}
+2024-10-22 14:53:43,098 - Model - INFO - Saved compressed file to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR192k.mp3 with settings {'format': 'mp3', 'bitrate': '192k'}
+2024-10-22 14:53:46,486 - Model - INFO - Saved compressed file to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR160k.mp3 with settings {'format': 'mp3', 'bitrate': '160k'}
+2024-10-22 14:53:46,487 - Model - DEBUG - StartSettingInspector initialized
+2024-10-22 14:53:46,487 - Model - DEBUG - Loaded metadata for /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR160k.mp3
+2024-10-22 14:53:46,487 - Model - DEBUG - Loaded metadata for /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR192k.mp3
+2024-10-22 14:53:46,487 - Model - DEBUG - Loaded metadata for /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR224k.mp3
+2024-10-22 14:53:46,487 - Model - DEBUG - Loaded metadata for /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR256k.mp3
+2024-10-22 14:53:46,488 - Model - DEBUG - Loaded metadata for /Users/julian/Downloads/02 Raven.mp3
+2024-10-22 14:53:46,488 - Model - DEBUG - Saved json to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/etc/randomizedAudioFiles.json
+2024-10-22 14:53:46,488 - Model - DEBUG - Saved json to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/etc/settings.json
+2024-10-22 14:53:46,488 - Model - INFO - AudioProcessor data saved
+2024-10-22 14:53:46,507 - Controller - DEBUG - randomized audio file loaded
+2024-10-22 14:53:46,507 - View - DEBUG - Audio duration adjusted to: 293
+2024-10-22 14:53:46,507 - Controller - DEBUG - Listening Screen setup complete
+2024-10-22 14:53:53,293 - Controller - INFO - start file /Users/julian/Downloads/02 Raven.mp3
+2024-10-22 14:53:55,941 - Controller - DEBUG - Submit button pressed
+2024-10-22 14:53:55,941 - Controller - INFO - comboBox choices: {'0': 'MP3 [160 kbps]', '1': 'MP3 [160 kbps]', '2': 'MP3 [160 kbps]', '3': 'MP3 [160 kbps]', '4': 'MP3 [160 kbps]'}
+2024-10-22 14:53:55,941 - Model - DEBUG - AudioProcessor initialized
+2024-10-22 14:53:55,942 - Model - DEBUG - Saved json to /var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/etc/result.json
+2024-10-22 14:53:55,942 - Model - INFO - Results: {0: {'id': 'MP3_cbr160', 'name': 'MP3 [160 kbps]', 'selected': True, 'path': '/var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR160k.mp3', 'fileMetadata': {'Bitrate': '160 kbps', 'Bitrate Mode': 'constant', 'Sample Rate': '44.1 kHz', 'filesize': '5.95 MB'}, 'listeningDuration': 0, 'correct': True, 'choice': 'MP3 [160 kbps]'}, 1: {'id': 'MP3_cbr192', 'name': 'MP3 [192 kbps]', 'selected': True, 'path': '/var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR192k.mp3', 'fileMetadata': {'Bitrate': '192 kbps', 'Bitrate Mode': 'constant', 'Sample Rate': '44.1 kHz', 'filesize': '7.14 MB'}, 'listeningDuration': 0, 'correct': False, 'choice': 'MP3 [160 kbps]'}, 2: {'id': 'MP3_cbr224', 'name': 'MP3 [224 kbps]', 'selected': True, 'path': '/var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR224k.mp3', 'fileMetadata': {'Bitrate': '224 kbps', 'Bitrate Mode': 'constant', 'Sample Rate': '44.1 kHz', 'filesize': '8.33 MB'}, 'listeningDuration': 0, 'correct': False, 'choice': 'MP3 [160 kbps]'}, 3: {'id': 'MP3_cbr256', 'name': 'MP3 [256 kbps]', 'selected': True, 'path': '/var/folders/_v/3mm99xcn1mgcj486679rdqq40000gn/T/tmp31h0fr85/audio/02 Raven_mp3_CBR256k.mp3', 'fileMetadata': {'Bitrate': '256 kbps', 'Bitrate Mode': 'constant', 'Sample Rate': '44.1 kHz', 'filesize': '9.52 MB'}, 'listeningDuration': 0, 'correct': False, 'choice': 'MP3 [160 kbps]'}, 4: {'id': 'MP3_cbr320', 'name': 'MP3 [320 kbps]', 'selected': True, 'path': '/Users/julian/Downloads/02 Raven.mp3', 'fileMetadata': {'Bitrate': '320 kbps', 'Bitrate Mode': 'constant', 'Sample Rate': '44.1 kHz', 'filesize': '11.93 MB'}, 'listeningDuration': 2, 'correct': False, 'choice': 'MP3 [160 kbps]'}}
+2024-10-22 14:53:55,942 - Controller - WARNING - {'audioOnce': False, 'debug': False, 'fileLoad': '/Users/julian/Downloads/02 Raven.mp3'}
+2024-10-22 14:53:55,943 - Model - DEBUG - AudioPlotter initialized
+2024-10-22 14:53:55,943 - Model - DEBUG - Start plotting all results
+2024-10-22 14:54:22,031 - View - DEBUG - formattedResult [[object Object],[object Object],[object Object],[object Object],[object Object]]
+2024-10-22 14:54:32,896 - Controller - DEBUG - Restart button pressed
+2024-10-22 14:54:32,903 - View - DEBUG - Debug mode is OFF
+2024-10-22 14:54:32,905 - Controller - INFO - Loaded orig. audio file format in default options: MP3_cbr320
+2024-10-22 14:54:32,905 - View - DEBUG - Compression Options: [{"identifier":"MP3_cbr320","selected":false,"text":"MP3 [320 kbps]"},{"identifier":"MP3_cbr256","selected":false,"text":"MP3 [256 kbps]"},{"identifier":"MP3_cbr224","selected":false,"text":"MP3 [224 kbps]"},{"identifier":"MP3_cbr192","selected":false,"text":"MP3 [192 kbps]"},{"identifier":"MP3_cbr160","selected":false,"text":"MP3 [160 kbps]"},{"identifier":"MP3_cbr128","selected":false,"text":"MP3 [128 kbps]"},{"identifier":"MP3_cbr96","selected":false,"text":"MP3 [96 kbps]"},{"identifier":"MP3_vbr0","selected":false,"text":"MP3 [VBR 0] (highest quality)"},{"identifier":"MP3_vbr1","selected":false,"text":"MP3 [VBR 1]"},{"identifier":"MP3_vbr2","selected":false,"text":"MP3 [VBR 2]"},{"identifier":"MP3_vbr3","selected":false,"text":"MP3 [VBR 3]"},{"identifier":"MP3_vbr4","selected":false,"text":"MP3 [VBR 4]"},{"identifier":"MP3_vbr5","selected":false,"text":"MP3 [VBR 5]"},{"identifier":"MP3_vbr6","selected":false,"text":"MP3 [VBR 6]"},{"identifier":"MP3_vbr7","selected":false,"text":"MP3 [VBR 7]"},{"identifier":"MP3_vbr8","selected":false,"text":"MP3 [VBR 8]"},{"identifier":"MP3_vbr9","selected":false,"text":"MP3 [VBR 9] (lowest quality)"}]
+2024-10-22 14:54:49,078 - Main - INFO - UI terminated with exitcode 0

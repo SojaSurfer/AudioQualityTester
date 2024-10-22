@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: audioQualityTester
+Version: 0.2
+Summary: A standalone application for testing the differences of MP3 formats.
+Home-page: https://github.com/SojaSurfer/AudioQualityTester.git
+Author: Julian Wagner
+Author-email: julian.s.wagner@t-online.de
+License: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: bson>=0.5.10
+Requires-Dist: PySide6<=7.0,>=6.0
+Requires-Dist: PySide6_Addons<=7.0,>=6.0
+Requires-Dist: PySide6_Essentials<=7.0,>=6.0
+Requires-Dist: pygame<=3.0,>=2.0
+Requires-Dist: pydub<=1.0,>=0.20
+Requires-Dist: librosa<=1.0,>=0.10
+Requires-Dist: mutagen<=2.0,>=1.0
+Requires-Dist: numpy<=2.0,>=1.0
+Requires-Dist: scipy<=2.0,>=1.0
+Requires-Dist: matplotlib<=4.0,>=3.0
+Requires-Dist: tqdm<=5.0,>=4.0
+Provides-Extra: dev
+Requires-Dist: rich<=13.0,<=14.0; extra == "dev"
+
+# Audio Quality Tester
+
+
+## External Dependencies
+
+**FFMPEG**
+- macOS: brew install ffmpeg
+- Ubuntu/Debian: sudo apt-get install ffmpeg
+- Windows: Download FFmpeg from ffmpeg.org and add it to the system PATH.
+
+
+
+![Start Screen](images/StartScreen.png)
+
+![Listening Screen](images/ListeningScreen.png)
+
+![Result Screen](images/ResultScreen.png)

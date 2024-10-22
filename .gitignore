@@ -8,6 +8,9 @@ source/model/__pycache__/
 source/view/__pycache__/
 source/controller/__pycache__/
 
+# ingore log file
+audioQualityTester/resources/application.log
+
 # ignore old version
 old_version/
 
@@ -16,3 +19,5 @@ source/resources/application.log
 
 # ignore test for now
 test/
+test.py
+test.txt
