@@ -10,18 +10,17 @@ The Audio Quality Tester is a Python tool with GUI that let's you compare lossy 
 ## 1 Getting Started
 Download the release file and pip-install it or build it from source. You need to install ffmpeg.
 
+**FFMPEG**
+- macOS: brew install ffmpeg
+- Ubuntu/Debian: sudo apt-get install ffmpeg
+- Windows: Download FFmpeg from ffmpeg.org and add it to the system PATH.
+
 Launch the main function to start the program: 
 ```
 import audioQualityTester
 
 audioQualityTester.main()
 ```
-
-**FFMPEG**
-- macOS: brew install ffmpeg
-- Ubuntu/Debian: sudo apt-get install ffmpeg
-- Windows: Download FFmpeg from ffmpeg.org and add it to the system PATH.
-
 
 ## 2 Documentation
 The tool will start a GUI which consists out of three screens.
