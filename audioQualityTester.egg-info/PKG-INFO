@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: audioQualityTester
-Version: 0.2
+Version: 0.2.2
 Summary: A standalone application for testing the differences of MP3 formats.
 Home-page: https://github.com/SojaSurfer/AudioQualityTester.git
 Author: Julian Wagner
@@ -9,10 +9,11 @@ License: GNU General Public License v3 (GPLv3)
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.10
+Requires-Python: >=3.10,<3.14
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
-Requires-Dist: bson>=0.5.10
+Requires-Dist: wheel<1.0,>=0.30.0
+Requires-Dist: setuptools<77.0,>=74.0
 Requires-Dist: PySide6<=7.0,>=6.0
 Requires-Dist: PySide6_Addons<=7.0,>=6.0
 Requires-Dist: PySide6_Essentials<=7.0,>=6.0
@@ -39,18 +40,17 @@ The Audio Quality Tester is a Python tool with GUI that let's you compare lossy 
 ## 1 Getting Started
 Download the release file and pip-install it or build it from source. You need to install ffmpeg.
 
+**FFMPEG**
+- macOS: brew install ffmpeg
+- Ubuntu/Debian: sudo apt-get install ffmpeg
+- Windows: Download FFmpeg from ffmpeg.org and add it to the system PATH.
+
 Launch the main function to start the program: 
 ```
 import audioQualityTester
 
 audioQualityTester.main()
 ```
-
-**FFMPEG**
-- macOS: brew install ffmpeg
-- Ubuntu/Debian: sudo apt-get install ffmpeg
-- Windows: Download FFmpeg from ffmpeg.org and add it to the system PATH.
-
 
 ## 2 Documentation
 The tool will start a GUI which consists out of three screens.

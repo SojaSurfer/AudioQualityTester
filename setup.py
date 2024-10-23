@@ -10,7 +10,7 @@ with open('Readme.md', 'r') as f:
 
 setup(
     name="audioQualityTester",
-    version='0.2',
+    version='0.2.2',
     description="A standalone application for testing the differences of MP3 formats.",
     packages=find_packages(),
     package_data= {'audioQualityTester': ['resources/*',
@@ -30,7 +30,8 @@ setup(
     author_email='julian.s.wagner@t-online.de',
     url='https://github.com/SojaSurfer/AudioQualityTester.git',
     license='GNU General Public License v3 (GPLv3)',
-    install_requires=['bson >= 0.5.10',
+    install_requires=['wheel>=0.30.0,<1.0',
+                      'setuptools>=74.0,<77.0',
                       'PySide6>=6.0,<=7.0',
                       'PySide6_Addons>=6.0,<=7.0',
                       'PySide6_Essentials>=6.0,<=7.0',
@@ -44,7 +45,7 @@ setup(
                       'tqdm>=4.0,<=5.0',
                       ],
     extras_require={'dev': ['rich<=13.0,<=14.0']},
-    python_requires='>=3.10',
+    python_requires='>=3.10,<3.14',
     classifiers=['Programming Language :: Python :: 3',
                  'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
                  'Operating System :: OS Independent',
