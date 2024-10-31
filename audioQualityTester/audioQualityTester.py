@@ -31,7 +31,6 @@ from .model.errorHandler import verifyExternalDependencies
 from .model.logger import mainLogger, installCustomMessageHandlerQT
 
 
-__version__ = '0.1'
 __license__ = 'GNU-GPL-3.0-only'
 __all__ = ['main']
 

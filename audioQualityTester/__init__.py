@@ -17,6 +17,8 @@
 from .audioQualityTester import main
 
 
+__version__ = '0.2.2'
+__license__ = 'GNU-GPL-3.0-only'
 __credits__ = ['Julian Wagner']
 
 
