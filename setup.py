@@ -10,7 +10,7 @@ with open('Readme.md', 'r') as f:
 
 setup(
     name="audioQualityTester",
-    version='0.2.2',
+    version='0.2.3',
     description="A standalone application for testing the differences of MP3 formats.",
     packages=find_packages(),
     package_data= {'audioQualityTester': ['resources/*',
