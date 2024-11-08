@@ -49,6 +49,7 @@ On the bottom you are able to go back, save all the created data into a director
 - start debug mode by setting a flag
 - add loading bars for start & listening screen
 - add proper testing suite
+- better log file handling!
 
 
 ## 4 License

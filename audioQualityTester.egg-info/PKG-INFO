@@ -75,7 +75,10 @@ On the bottom you are able to go back, save all the created data into a director
 
 ## 3 Known Issues and Roadmap
 
-The current plan is to fix minor bugs and ensure the interoperability of the platforms.
+- assert interoperability
+- start debug mode by setting a flag
+- add loading bars for start & listening screen
+- add proper testing suite
 
 
 ## 4 License
