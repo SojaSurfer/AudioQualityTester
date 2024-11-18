@@ -375,7 +375,8 @@ class StartSettingInspector(BaseFactory):
         if userInputIsValid:
             modelLogger.info('Start Screen User input is valid')
         else:
-            modelLogger.warning(f'Start Screen User input is defective: {self.errorMsg.replace("\n", ", ")}')
+            errorMsg = self.errorMsg.replace("\n", ", ")
+            modelLogger.warning(f'Start Screen User input is defective: {errorMsg}')
 
         return userInputIsValid
 

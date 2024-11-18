@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: audioQualityTester
-Version: 0.2.2
+Version: 0.2.3
 Summary: A standalone application for testing the differences of MP3 formats.
 Home-page: https://github.com/SojaSurfer/AudioQualityTester.git
 Author: Julian Wagner
@@ -79,6 +79,7 @@ On the bottom you are able to go back, save all the created data into a director
 - start debug mode by setting a flag
 - add loading bars for start & listening screen
 - add proper testing suite
+- better log file handling!
 
 
 ## 4 License
